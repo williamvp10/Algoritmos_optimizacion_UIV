@@ -23,5 +23,4 @@ Los datos del problema se encuentran en:
 ## Resultados Principales
 - Se implementaron múltiples algoritmos para resolver el problema
 - El algoritmo Greedy logró una mejora del 20% respecto a la solución secuencial
-- Se requieren mínimo 5 días para completar todas las tomas
 - La solución es escalable para problemas de mayor tamaño 
