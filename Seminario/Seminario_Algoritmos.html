@@ -7518,8 +7518,8 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1>Algoritmos de optimización - Seminario<br/></h1>
-<p>Nombre y Apellidos:   <br/>
-Url: <a href="https://github.com/.../03MAIR---Algoritmos-de-Optimizacion---2019/tree/master/SEMINARIO">https://github.com/.../03MAIR---Algoritmos-de-Optimizacion---2019/tree/master/SEMINARIO</a><br/>
+<p>Nombre y Apellidos: William David Vasquez Parada <br/>
+Url: <a href="https://github.com/williamvp10/Algoritmos_optimizacion_UIV/tree/main/Seminario">https://github.com/williamvp10/Algoritmos_optimizacion_UIV/tree/main/Seminario</a><br/>
 Problema:</p>
 <blockquote>
 <ol>
@@ -7563,7 +7563,7 @@ Actores/Tomas : <a href="https://bit.ly/36D8IuK">https://bit.ly/36D8IuK</a> <br/
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># instalar las librerías necesarias</span>
@@ -7596,7 +7596,7 @@ Requirement already satisfied: six&gt;=1.5 in /opt/anaconda3/envs/masterai/lib/p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># leer el archivo de datos y pasarlo a un dataframe</span>
@@ -7696,7 +7696,7 @@ Al añadir la restricción de máximo 6 tomas por día, el problema se convierte
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
@@ -7859,7 +7859,7 @@ Una <strong>lista de conjuntos</strong> (<code>list</code> de <code>set</code>),
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Demostración de la estructura de datos elegida</span>
@@ -7959,7 +7959,6 @@ Día 1: Tomas [1, 2] -&gt; Actores [2, 3, 4, 5, 7]
 Día 2: Tomas [3, 4] -&gt; Actores [1, 2, 4, 7, 8]
 
 Costo de esta programación parcial: 10
-¿Es válida? False
 </pre>
 </div>
 </div>
@@ -8000,7 +7999,7 @@ Es un problema de <strong>MINIMIZACIÓN</strong>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Demostración de la función objetivo</span>
@@ -8141,7 +8140,7 @@ Este enfoque garantiza encontrar la solución óptima global. Sin embargo, dado 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Implementación del algoritmo de fuerza bruta</span>
@@ -8253,22 +8252,6 @@ Este enfoque garantiza encontrar la solución óptima global. Sin embargo, dado 
 Nota: Usando solo las primeras 8 tomas debido a la complejidad exponencial
 Evaluando todas las particiones de 8 tomas...
 Máximo 6 tomas por día
-
-Resultados:
-Particiones evaluadas: 545818
-Mejor costo encontrado: 11
-Mejor partición:
-  Día 1: Tomas [7, 8]
-  Día 2: Tomas [1, 2, 3, 4, 5, 6]
-
-Detalle de la mejor solución:
-Día 1: Tomas [7, 8] -&gt; Actores [1, 2, 4, 6]
-Día 2: Tomas [1, 2, 3, 4, 5, 6] -&gt; Actores [1, 2, 3, 4, 5, 7, 8]
-
-=== COMPARACIÓN CON SOLUCIÓN SECUENCIAL ===
-Costo de solución secuencial: 11
-Mejora de fuerza bruta: 0 unidades
-Porcentaje de mejora: 0.0%
 </pre>
 </div>
 </div>
@@ -8311,7 +8294,7 @@ El algoritmo es <strong>inviable</strong> para el tamaño del problema original.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Demostración numérica de la complejidad</span>
@@ -8480,7 +8463,7 @@ Tiene una <strong>complejidad polinómica</strong>, no exponencial. Reduce el ti
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Implementación del algoritmo greedy mejorado</span>
@@ -8774,7 +8757,7 @@ Se implementa una función <code>generar_datos(tomas, actores, densidad, ratio_p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generador de datos aleatorios para el problema de doblaje</span>
@@ -9039,7 +9022,7 @@ Los resultados se consolidan en una tabla para comparar:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Aplicación del algoritmo a los datos generados</span>
@@ -9451,6 +9434,8 @@ Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
 Installing collected packages: webencodings, fastjsonschema, tinycss2, soupsieve, rpds-py, pandocfilters, mistune, markupsafe, jupyterlab-pygments, defusedxml, bleach, attrs, referencing, jinja2, beautifulsoup4, jsonschema-specifications, jsonschema, nbformat, nbclient, nbconvert
    <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">20/20</span> [nbconvert]20 [nbformat]
 Successfully installed attrs-25.3.0 beautifulsoup4-4.13.4 bleach-6.2.0 defusedxml-0.7.1 fastjsonschema-2.21.1 jinja2-3.1.6 jsonschema-4.24.0 jsonschema-specifications-2025.4.1 jupyterlab-pygments-0.3.0 markupsafe-3.0.2 mistune-3.1.3 nbclient-0.10.2 nbconvert-7.16.6 nbformat-5.10.4 pandocfilters-1.5.1 referencing-0.36.2 rpds-py-0.26.0 soupsieve-2.7 tinycss2-1.4.0 webencodings-0.5.1
+[NbConvertApp] Converting notebook Seminario_Algoritmos.ipynb to html
+[NbConvertApp] Writing 453449 bytes to Seminario_Algoritmos.html
 </pre>
 </div>
 </div>
